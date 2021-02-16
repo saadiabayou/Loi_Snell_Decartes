@@ -6,14 +6,10 @@ Created on Mon Feb 15 17:04:20 2021
 @author: Saadia Bayou
 """
 
-
-
-
 """ Nous condsidérons deux milieux différents,
-    nous supposons que la lumière traverse ses deux milieux avec un phénomène de diffraction
-    Ce programme permet d'afficher les milieux étudiés et leurs indice de rafractions respectifes 
-    selon certaine conditions de tempéarture et de pression """
-
+    nous supposons que la lumière traverse ses deux milieux avec un phénomène de refraction.
+    Ce programme permet d'afficher les milieux étudiés et leurs indices de refractions respectifs;
+    selon certaines conditions de tempéarture et de pression """
 
 
 print("\nNous considérons 5 milieux et leurs indices de refraction respectifs :\n" )
@@ -24,7 +20,6 @@ print("\nNous considérons 5 milieux et leurs indices de refraction respectifs :
 milieu=["vide","atmosphère","air","verre","eau"]
 
 #  Indices de refraction  - conditions de T et p
-
 # vide
 n_vide=1 
 # atmosphère
@@ -49,7 +44,6 @@ def id_milieu(l):
 
 print(id_milieu(milieu))
     
-
   
 def n_milieu(m):
     """ Cette fonction permet la selection  du milieu et donne l'indice de refraction correspondant"""
